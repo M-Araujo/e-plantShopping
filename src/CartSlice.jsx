@@ -4,10 +4,10 @@ export const CartSlice = createSlice({
   name: 'cart',
   initialState: {
     items: [], // Initialize items as an empty array
-  },
+  }, 
   reducers: {
     addItem: (state, action) => {
-    
+        state.items.push(action.payload);
     },
     removeItem: (state, action) => {
     },
