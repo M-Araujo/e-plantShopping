@@ -19,11 +19,11 @@ const CartItem = ({ onContinueShopping }) => {
 
 
   const handleIncrement = (item) => {
-    dispatch(updateQuantity({'payload': item, 'action': 'increment'}));
+    dispatch(updateQuantity({'item': item, 'action': 'increment'}));
   };
 
   const handleDecrement = (item) => {
-    dispatch(updateQuantity({'payload': item, 'action': 'decrement'}));
+    dispatch(updateQuantity({'item': item, 'action': 'decrement'}));
   };
 
   const handleRemove = (item) => {
