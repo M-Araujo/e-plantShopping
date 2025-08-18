@@ -1,3 +1,3 @@
 Github pages: https://m-araujo.github.io/e-plantShopping/
 
-# coding-project-template
+This is the final project for the course Edx: Developing Front End Apps with React.
